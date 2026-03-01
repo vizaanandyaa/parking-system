@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using ParkingSystem.Models;
-using ParkingSystem.Helpers;
 
 namespace ParkingSystem.Services
 {
@@ -68,41 +67,6 @@ namespace ParkingSystem.Services
             Console.WriteLine(count);
         }
 
-        public void GetOddPlate()
-        {
-            var result = _slots
-                .Where(s => !s.IsAvailable && PlateHelper.IsOddPlate(s.Vehicle.RegistrationNumber))
-                .Select(s => s.Vehicle.RegistrationNumber);
-
-            Console.WriteLine(string.Join(", ", result));
-        }
-
-        public void GetEvenPlate()
-        {
-            var result = _slots
-                .Where(s => !s.IsAvailable && !PlateHelper.IsOddPlate(s.Vehicle.RegistrationNumber))
-                .Select(s => s.Vehicle.RegistrationNumber);
-
-            Console.WriteLine(string.Join(", ", result));
-        }
-
-        public void GetByColour(string colour)
-        {
-            var result = _slots
-                .Where(s => !s.IsAvailable && s.Vehicle.Colour == colour)
-                .Select(s => s.Vehicle.RegistrationNumber);
-
-            Console.WriteLine(string.Join(", ", result));
-        }
-
-        public void GetSlotByColour(string colour)
-        {
-            var result = _slots
-                .Where(s => !s.IsAvailable && s.Vehicle.Colour == colour)
-                .Select(s => s.SlotNumber);
-
-            Console.WriteLine(string.Join(", ", result));
-        }
 
         public void GetSlotByRegistration(string regNo)
         {
