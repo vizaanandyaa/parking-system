@@ -1,0 +1,14 @@
+C:\Users\Asus\Downloads\enigma\ParkingApp\bin\Debug\net10.0\ParkingApp.exe
+C:\Users\Asus\Downloads\enigma\ParkingApp\bin\Debug\net10.0\ParkingApp.deps.json
+C:\Users\Asus\Downloads\enigma\ParkingApp\bin\Debug\net10.0\ParkingApp.runtimeconfig.json
+C:\Users\Asus\Downloads\enigma\ParkingApp\bin\Debug\net10.0\ParkingApp.dll
+C:\Users\Asus\Downloads\enigma\ParkingApp\bin\Debug\net10.0\ParkingApp.pdb
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.AssemblyInfoInputs.cache
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.AssemblyInfo.cs
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.dll
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\refint\ParkingApp.dll
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.pdb
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ParkingApp.genruntimeconfig.cache
+C:\Users\Asus\Downloads\enigma\ParkingApp\obj\Debug\net10.0\ref\ParkingApp.dll
